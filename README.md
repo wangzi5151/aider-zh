@@ -2,6 +2,10 @@
 >
 > 本仓库是 [Aider-AI/aider](https://github.com/Aider-AI/aider) 官方 README 的非官方简体中文翻译，仅供学习交流。
 > 原项目采用 Apache-2.0 许可证，本翻译遵循相同许可证。翻译可能滞后于原文，请以[英文原版](https://github.com/Aider-AI/aider)为准。
+>
+> **维护基线**：对应上游 commit [`5dc9490bb35f9729ef2c95d00a19ccd30c26339c`](https://github.com/Aider-AI/aider/commit/5dc9490bb35f9729ef2c95d00a19ccd30c26339c)，同步日期 2026-11-07。所有内容以英文原版为准；上游更新后请按 [SYNC_CHECKLIST.md](SYNC_CHECKLIST.md) 重新同步。
+>
+> **快照说明**：徽章数值与模型清单沿用上游 README 快照，未做实时核验，可能已过期；请以 [aider.chat](https://aider.chat/) 与官方文档为准。
 
 <p align="center">
     <a href="https://aider.chat/"><img src="https://aider.chat/assets/logo.svg" alt="Aider Logo" width="300"></a>
@@ -10,7 +14,6 @@
 <h1 align="center">
 终端里的 AI 结对编程
 </h1>
-
 
 <p align="center">
 Aider 让你与 LLM 结对编程，无论是从零开始一个新项目，还是在现有代码库上继续开发。
@@ -23,12 +26,9 @@ Aider 让你与 LLM 结对编程，无论是从零开始一个新项目，还是
   >
 </p>
 
+<!-- 徽章为上游 README 的静态快照（commit 5dc9490bb35f9729ef2c95d00a19ccd30c26339c），数值可能过期；可运行 scripts/generate_badges.py 重新生成。 -->
 <p align="center">
-<!--[[[cog
-from scripts.homepage import get_badges_md
-text = get_badges_md()
-cog.out(text)
-]]]-->
+<!-- badges:start -->
   <a href="https://github.com/Aider-AI/aider/stargazers"><img alt="GitHub Stars" title="Total number of GitHub stars the Aider project has received"
 src="https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square&logo=github&color=f1c40f&labelColor=555555"/></a>
   <a href="https://pypi.org/project/aider-chat/"><img alt="PyPI Downloads" title="Total number of installations via pip from PyPI"
@@ -39,7 +39,11 @@ src="https://img.shields.io/badge/📈%20Tokens%2Fweek-15B-3498db?style=flat-squ
 src="https://img.shields.io/badge/🏆%20OpenRouter-Top%2020-9b59b6?style=flat-square&labelColor=555555"/></a>
   <a href="https://aider.chat/HISTORY.html"><img alt="Singularity" title="Percentage of the new code in Aider's last release written by Aider itself"
 src="https://img.shields.io/badge/🔄%20Singularity-88%25-e74c3c?style=flat-square&labelColor=555555"/></a>
-<!--[[[end]]]-->
+<!-- badges:end -->
+</p>
+
+<p align="center">
+  <sub>徽章数值（安装量 6.8M、Singularity 88%）为上游 README 快照，可能已过期，请以官方页面为准。</sub>
 </p>
 
 ## 功能特性
@@ -47,7 +51,7 @@ src="https://img.shields.io/badge/🔄%20Singularity-88%25-e74c3c?style=flat-squ
 ### [云端与本地 LLM](https://aider.chat/docs/llms.html)
 
 <a href="https://aider.chat/docs/llms.html"><img src="https://aider.chat/assets/icons/brain.svg" width="32" height="32" align="left" valign="middle" style="margin-right:10px"></a>
-Aider 在 Claude 3.7 Sonnet、DeepSeek R1 & Chat V3、OpenAI o1、o3-mini 和 GPT-4o 上表现最佳，但几乎可以连接任何 LLM，包括本地模型。
+Aider 在 Claude 3.7 Sonnet、DeepSeek R1 & Chat V3、OpenAI o1、o3-mini 和 GPT-4o 上表现最佳，但几乎可以连接任何 LLM，包括本地模型。（模型清单为上游 README 快照，可能已过期，请以[官方 LLM 文档](https://aider.chat/docs/llms.html)为准。）
 
 <br>
 
@@ -129,6 +133,7 @@ aider --model o3-mini --api-key openai=<key>
 ## 更多信息
 
 ### 文档
+
 - [安装指南](https://aider.chat/docs/install.html)
 - [使用指南](https://aider.chat/docs/usage.html)
 - [视频教程](https://aider.chat/docs/usage/tutorials.html)
@@ -138,6 +143,7 @@ aider --model o3-mini --api-key openai=<key>
 - [常见问题](https://aider.chat/docs/faq.html)
 
 ### 社区与资源
+
 - [LLM 排行榜](https://aider.chat/docs/leaderboards/)
 - [GitHub 仓库](https://github.com/Aider-AI/aider)
 - [Discord 社区](https://discord.gg/Y7X7bhMQFV)
